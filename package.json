@@ -1,0 +1,16 @@
+{
+  "name": "hw_4",
+  "version": "1.0.0",
+  "description": "Home work 4",
+  "main": "knur_hw4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khadija Nur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nock": "^9.0.19",
+    "node-fetch": "^1.7.3"
+  }
+}
