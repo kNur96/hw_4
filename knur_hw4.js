@@ -76,7 +76,7 @@ nock('http://this_is_funny.com')
 .get('/fun')
 .reply(200, {
   _name: 'Khadija Nur',
-  _id: '01039306',
+  _id: '010678356',
   _username: 'knur',
   _email: 'knur@gmu.edu'
 });
@@ -85,14 +85,14 @@ nock('http://this_is_funny.com')
 nock('http://this_is_funny.com')
     .get('/hilarious')
     .reply(200, {
-        _name: 'Nafisa Nur',
-        _id: '01039306',
+        _name: 'Person2 Nur',
+        _id: '04565543',
         _username: 'knur',
-        _email: 'knur@gmu.edu'
+        _email: 'knur@email.edu'
     });
 
 //fetch multiple requests with timer.
-//Also the fetch requests are sequenced properly (I hope).
+//Also the fetch requests are sequenced properly.
 //Also handles errors by displaying it to the client.
 fetch('http://api.nobelprize.org/v1/laureate.json')
     .then((res) => {
