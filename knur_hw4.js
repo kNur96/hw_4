@@ -1,5 +1,4 @@
 //Khadija Nur
-//G01039306
 const express = require('express');
 const app = express();
 const fetch = require('node-fetch');
